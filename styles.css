@@ -1,0 +1,174 @@
+#card {
+  height: 100%;
+  width: 100%;
+  left: -78px;
+  top: 5.1rem;
+  display: flex;
+  padding-left: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: normal;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-left: 0;
+  right: 0;
+  overflow-x: hidden;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+}
+
+.card #pan {
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card #pin {
+  display: none !important;
+}
+
+#security-code {
+  position: absolute;
+  right: -20%;
+  top: 58%;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+  width: 100%;
+  text-align: right;
+}
+
+#expiration-date {
+  position: relative;
+  right: -50%;
+  top: 93%;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.list {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.list .pan {
+  color: #ffffff;
+}
+
+.list .pan .label {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.list .pan .copy-icon {
+  color: #ffffff;
+  display: none;
+}
+
+.copy-icon {
+  display: none;
+}
+
+.list .name {
+  color: #ffffff;
+}
+
+.list .name .label {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.list .expiration-date {
+  color: #ffffff;
+}
+
+.list .expiration-date .label {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.list .security-code {
+  color: #ffffff;
+}
+
+.list .security-code .label {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.list .pin {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+.list .pin .label {
+  font-size: 30px;
+  margin-top: 2px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #4a4a4a;
+}
+
+.activation-form #pan {
+  color: #000000 !important;
+}
+
+.activation-form .pin-input {
+  color: #ffffff;
+  background-color: #3a3a3a;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #4a4a4a;
+}
+
+.activation-form .error-field {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.activation-form {
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.activation-form .submit-button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+  order: 0;
+  flex-grow: 0;
+  -webkit-user-select: none;
+  height: 44px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  user-select: none;
+  width: 100%;
+  border-radius: 10px;
+  background: #2c7040;
+  transition: background 0.3s ease;
+}
+
+.activation-form .submit-button:hover {
+  background: #245f34;
+}
