@@ -54,6 +54,13 @@
   background-color: #2a2a2a;
   border-radius: 10px;
   padding: 10px;
+
+  /* Test */
+  background-image: url("./charizard.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-color: #2a2a2a;
 }
 
 .list .pan {
